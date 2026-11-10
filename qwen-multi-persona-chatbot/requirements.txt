@@ -1,0 +1,22 @@
+# Core deep learning and model inference
+# Install the CUDA build separately, see README section 4:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+torch>=2.2.0
+transformers>=4.45.0
+accelerate>=0.34.0
+bitsandbytes>=0.43.3
+sentencepiece>=0.2.0
+
+# Authentication and environment variables
+python-dotenv>=1.0.0
+
+# Web interface (code is compatible with Gradio 6.x)
+gradio>=6.0.0
+
+# Data handling and evaluation
+pandas>=2.2.0
+numpy>=1.26.0
+tqdm>=4.66.0
+
+# Optional: faster inference (uncomment if vLLM is supported on your platform)
+# vllm>=0.6.0

@@ -1,0 +1,11 @@
+persona_key,prompt_method,num_turns,mean_response_time_s,min_response_time_s,max_response_time_s,mean_generated_tokens,mean_prompt_tokens
+professor,basic,5,10.1976,6.1613,16.129,157.0,483.4
+professor,structured,5,37.8741,16.7033,68.572,147.6,795.2
+magical_girl,basic,5,16.5715,5.8555,22.571,89.2,336.4
+magical_girl,structured,5,16.2587,12.1079,22.524,60.8,509.2
+detective,basic,5,17.6685,7.3167,21.0121,89.0,303.6
+detective,structured,5,18.2236,3.6081,28.0389,73.4,548.6
+customer_support,basic,5,7.044,2.7689,13.351,126.6,360.6
+customer_support,structured,5,2.9561,1.9607,3.8283,53.6,491.6
+knight,basic,5,7.047,5.3037,9.1519,129.4,417.8
+knight,structured,5,4.8796,4.3105,5.4547,84.6,574.8
